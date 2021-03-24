@@ -1,0 +1,50 @@
+.detail-board {
+  background-color: #fff;
+
+  .container {
+    position: relative;
+    width: 1226px;
+    margin: 0 auto;
+    padding: 32px 0 50px;
+
+    .left {
+      width: 606px;
+
+      .pic {
+        width: 560px;
+        height: 560px;
+      }
+    }
+
+    .right {
+      position: absolute;
+      top: 72px;
+      left: 0;
+      width: 100%;
+      padding-left: 618px;
+      box-sizing: border-box;
+
+        .name {
+          font-size: 22px;
+          font-weight: bold;
+        }
+
+        .slogan {
+          margin-top: 10px;
+          font-size: 14px;
+          color: #989898;
+          word-wrap: break-word;
+        }
+
+        .price {
+          margin-top: 20px;
+          color: #ff6700;
+          font-size: 18px;
+        }
+
+        .wrap {
+          width: 608px;
+        }
+    }
+  }
+}

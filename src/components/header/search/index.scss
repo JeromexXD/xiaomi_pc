@@ -1,0 +1,39 @@
+.search {
+  float: right;
+  position: relative;
+  width: 296px;
+  height: 36px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  margin-top: 30px;
+
+  .search-input {
+    width: 260px;
+    height: 36px;
+
+    input {
+      width: 100%;
+      height: 34px;
+      text-indent: 16px;
+    }
+  }
+
+  .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    border-left: 1px solid #ddd;
+
+    .icon {
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+
+      &.icon-search {
+        background: url('~@/icons/search_w.png') no-repeat center/20px 20px;
+      }
+    }
+  }
+}

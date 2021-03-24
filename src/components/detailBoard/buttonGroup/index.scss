@@ -1,0 +1,20 @@
+.detail-btn {
+  width: 150px;
+  height: 44px;
+  margin: 30px 20px 0 0;
+  font-size: 16px;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  cursor: pointer;
+
+  &.purcase {
+    margin-right: 0;
+    background-color: #ff6700;
+  }
+
+  &.addToCart {
+    margin-left: 280px;
+    background-color: #f20;
+  }
+}
